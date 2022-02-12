@@ -1,0 +1,6 @@
+[
+  { "name": "home", "id": 0 },
+  { "name": "about", "id": 1 },
+  { "name": "destinations", "id": 2 },
+  { "name": "contact", "id": 3 }
+]
