@@ -1,0 +1,7 @@
+[
+  { "option": "check-in", "id": 0 },
+  { "option": "manage my booking", "id": 1 },
+  { "option": "search", "id": 2 },
+  { "option": "destinations", "id": 3 },
+  { "option": "members", "id": 4 }
+]

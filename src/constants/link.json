@@ -1,0 +1,24 @@
+[
+  {
+    "title": "explore",
+    "link1": "home",
+    "link2": "destinations",
+    "link3": "about",
+    "id": 0
+  },
+  {
+    "title": "information",
+    "link1": "more search",
+    "link2": "blog",
+    "link3": "testimonials",
+    "id": 1
+  },
+  {
+    "title": "services",
+    "link1": "manage my bookings",
+    "link2": "checking",
+    "link3": "hotel",
+    "link4": "cars",
+    "id": 2
+  }
+]
