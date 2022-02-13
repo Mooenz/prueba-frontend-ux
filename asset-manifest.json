@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/prueba-frontend-ux/static/css/main.d970a576.css",
+    "main.js": "/prueba-frontend-ux/static/js/main.90df8dd1.js",
+    "static/media/plane.jpg": "/prueba-frontend-ux/static/media/plane.8139472266a43c417894.jpg",
+    "static/media/honduras.jpg": "/prueba-frontend-ux/static/media/honduras.3c073a98d8feaf18876a.jpg",
+    "static/media/puerto-rico.jpg": "/prueba-frontend-ux/static/media/puerto-rico.e80bfc75dca11992a29e.jpg",
+    "static/media/moscow.jpg": "/prueba-frontend-ux/static/media/moscow.2f4bbafddd63f8902172.jpg",
+    "static/media/facebook.svg": "/prueba-frontend-ux/static/media/facebook.21c98d9c8f0d79effbf6401be494272d.svg",
+    "static/media/instagram.svg": "/prueba-frontend-ux/static/media/instagram.6845f29f5c604dd88c90592e696a8f6e.svg",
+    "static/media/twitter.svg": "/prueba-frontend-ux/static/media/twitter.76dbb37c07f5985d6b01b38664712143.svg",
+    "index.html": "/prueba-frontend-ux/index.html",
+    "static/media/arrow-down.svg": "/prueba-frontend-ux/static/media/arrow-down.0fbc0066654a1d5c0f62.svg",
+    "static/media/icon-burger.svg": "/prueba-frontend-ux/static/media/icon-burger.54888b9997b621dde384.svg",
+    "main.d970a576.css.map": "/prueba-frontend-ux/static/css/main.d970a576.css.map",
+    "main.90df8dd1.js.map": "/prueba-frontend-ux/static/js/main.90df8dd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d970a576.css",
+    "static/js/main.90df8dd1.js"
+  ]
+}
