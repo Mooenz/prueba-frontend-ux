@@ -1,0 +1,127 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  max-width: 1200px;
+  background: transparent;
+  width: 100%;
+  z-index: 1;
+
+  &__container {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  &__logo {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__dropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 4px;
+    font-weight: 300;
+    position: relative;
+
+    &List {
+      position: absolute;
+      display: none;
+      width: 135px;
+      top: 30px;
+      right: -17px;
+      background-color: var(--white);
+      color: var(--blue);
+      font-weight: 400;
+      border-radius: 15px;
+      padding: 18px 12px;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 15px solid var(--white);
+        top: -10px;
+        right: 19px;
+        
+      }
+
+      ol {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      li {
+        list-style: none;
+      }
+    }
+
+    &Icon {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      background: url('../../assets/arrow-down.svg') no-repeat;
+      background-position: center;
+      background-size: cover;
+      transition-duration: 0.5s;
+
+      &Active {
+        
+        .nav__dropdownIcon {
+          transform: rotate(180deg);
+        }
+
+        .nav__dropdownList {
+          display: inline-block;
+        }
+        
+      }
+    }
+  }
+
+  &__iconBurger {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background: url('../../assets/icon-burger.svg') center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__tap {
+    color: var(--white);
+    text-decoration: none;
+    text-transform: capitalize;
+
+    &Active {
+      border-bottom: 2px solid var(--white);
+    }
+  }
+
+  @media screen and (min-width: 790px) {
+    &__iconBurger {
+      display: none;
+    }
+
+    &__container {
+      display: flex;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0 auto;
+  }
+}
