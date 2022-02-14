@@ -1,7 +1,11 @@
+import Header from "../components/header/Header";
+
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <>
+      <Header title="Contact" />
+    </>
+  );
+};
 
-export default Contact
+export default Contact;

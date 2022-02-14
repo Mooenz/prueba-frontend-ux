@@ -2,7 +2,7 @@ import React from 'react';
 import style from './style.module.scss';
 import { Link } from 'react-router-dom';
 
-const Header = ({ children }) => {
+const Header = ({ title, bodyOne, bodyTwo, button }) => {
   const {
     header,
     header__container,
@@ -14,16 +14,20 @@ const Header = ({ children }) => {
   return (
     <>
       <section className={`${header} space-lateral`}>
-        {children}
         <div className={header__container}>
-          <h1 className={header__title}>Visit Canada with prices from $800</h1>
-          <p className={header__body}>
-            Prepare your bags and forget your worries <br />
-            to start enjoying your holidays in this fantastic country
-          </p>
-          <Link to="/buy-now">
-            <button className={header__button}>BUY NOW</button>
-          </Link>
+          {title && <h1 className={header__title}>{title}</h1>}
+          {bodyOne && (
+            <p className={header__body}>
+              {bodyOne}
+              <br />
+              {bodyTwo}
+            </p>
+          )}
+          {button && (
+            <Link to="/buy-now">
+              <button className={header__button}>{button}</button>
+            </Link>
+          )}
         </div>
       </section>
     </>

@@ -6,7 +6,7 @@
   text-align: center;
 
   &__container {
-    margin: 90px 0 0;
+    margin: 150px 0 0;
     max-width: 1200px;
   }
 
@@ -37,7 +37,7 @@
   @media screen and (min-width: 1200px) {
     text-align: start;
     &__container {
-      margin: 90px auto 0;
+      margin: 150px auto 0;
     }
   }
 }

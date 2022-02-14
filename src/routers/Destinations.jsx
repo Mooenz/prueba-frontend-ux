@@ -1,7 +1,13 @@
+import Header from "../components/header/Header";
+
 const Destinations = () => {
   return (
-    <div>Destinations</div>
-  )
-}
+    <>
+      <Header
+        title="Destinations"
+      />
+    </>
+  );
+};
 
-export default Destinations
+export default Destinations;
